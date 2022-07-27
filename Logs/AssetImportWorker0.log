@@ -872,3 +872,15 @@ Received Import Request.
   path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_12_Normal.tga
   artifactKey: Guid(12dee78e6b4fc644fb75f9d19b8b9ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_12_Normal.tga using Guid(12dee78e6b4fc644fb75f9d19b8b9ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27d451d42152e2b4c3b31dbecb04d66') in 0.007968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5482.455947 seconds.
+  path: Assets/03.Prefabs/Wall.prefab
+  artifactKey: Guid(c2086508e1b2d46849b9e4f8ead25fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Prefabs/Wall.prefab using Guid(c2086508e1b2d46849b9e4f8ead25fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45aef16de95e3a806d879c513390be28') in 0.762643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 723.515203 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceBlueWithPlanet
+  artifactKey: Guid(9d242a85f5b324f53a784348749398df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceBlueWithPlanet using Guid(9d242a85f5b324f53a784348749398df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a516a45cbd30e62ec5efe59e8d590f85') in 0.001756 seconds 
