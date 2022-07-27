@@ -1,0 +1,874 @@
+Unity Editor version:    2021.3.5f1 (40eb3a945986)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.4 (Build 21F79)
+Darwin version:          21.5.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mac/unity study/SpaceShooter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54039
+Successfully changed project path to: /Users/mac/unity study/SpaceShooter
+/Users/mac/unity study/SpaceShooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 95.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mac/unity study/SpaceShooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56095
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001077 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 98.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.398 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1400ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1058ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (137ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (748ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (459ms)
+				ProcessInitializeOnLoadMethodAttributes (168ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001874 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mac/unity study/SpaceShooter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mac/unity study/SpaceShooter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.335 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2338ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1819ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1132ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (130ms)
+				ProcessInitializeOnLoadAttributes (873ms)
+				ProcessInitializeOnLoadMethodAttributes (112ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (94.5 KB). Loaded Objects now: 3824.
+Memory consumption went from 229.0 MB to 228.9 MB.
+Total: 3.095500 ms (FindLiveObjects: 0.177125 ms CreateObjectMapping: 0.080334 ms MarkObjects: 2.710084 ms  DeleteObjects: 0.126542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52593.413212 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_10_Normal.tga
+  artifactKey: Guid(e0ceb8567a0394b4f85cb11fdac74d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_10_Normal.tga using Guid(e0ceb8567a0394b4f85cb11fdac74d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af66ca1aa4ee948b94790c5417e09b19') in 0.685091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.186875 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_11_Specular.tga
+  artifactKey: Guid(26a5a819f3afd984ea4658c19842fc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_11_Specular.tga using Guid(26a5a819f3afd984ea4658c19842fc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ee54f7f3ae452e04bc91b3884b3047') in 0.016239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.203558 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_10_Specular.tga
+  artifactKey: Guid(03dd414d6373d4e458121278ae3a91e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_10_Specular.tga using Guid(03dd414d6373d4e458121278ae3a91e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ceb8663637cc9193cafffe36bb3c577') in 0.010481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.657777 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_12_Emissive.tga
+  artifactKey: Guid(2d0a4c78ea142244cbf9957397b75d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_12_Emissive.tga using Guid(2d0a4c78ea142244cbf9957397b75d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a826afa12d6ef8d32eaa7ca7ae32534c') in 0.011372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 216.804208 seconds.
+  path: Assets/04.Images/SkyBox Volume 2
+  artifactKey: Guid(bd8adad988caa4897a7653bd09ba5ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2 using Guid(bd8adad988caa4897a7653bd09ba5ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7b95bab5c1fdc1d1d2714ad8999644') in 0.002474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.840811 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_10_Glow.tga
+  artifactKey: Guid(0145160747ee37d48b70a86ba8103d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_10_Glow.tga using Guid(0145160747ee37d48b70a86ba8103d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526da6157998f22c70efcb13fb6a76cd') in 0.007290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.088142 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceBlue/backImage.png
+  artifactKey: Guid(d733e8221be901b429039b23c12749c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceBlue/backImage.png using Guid(d733e8221be901b429039b23c12749c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c94d526f25a0028f9892ea55309371') in 0.390870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceGreenWithPlanet/upImage.png
+  artifactKey: Guid(82671bcdbbcc6f54c86c3c2c6ed06aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceGreenWithPlanet/upImage.png using Guid(82671bcdbbcc6f54c86c3c2c6ed06aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6cf5043d7144119166e8536f79c283') in 0.009257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_16_Specular.tga
+  artifactKey: Guid(b4745deb35e7f4a42a3a9da87633930e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_16_Specular.tga using Guid(b4745deb35e7f4a42a3a9da87633930e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7002cae36136378f0a9454e151956440') in 0.009680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_35_Specular.tga
+  artifactKey: Guid(d5f16c147d28ac84ea736b0c41958bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_35_Specular.tga using Guid(d5f16c147d28ac84ea736b0c41958bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1b94b98783806df7cdb14b8e699ed3') in 0.008106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_26_Specular.tga
+  artifactKey: Guid(7a69b4259fea3f04fae8f266184826fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_26_Specular.tga using Guid(7a69b4259fea3f04fae8f266184826fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbf11f0cd2ac999331cdd97bd75236f') in 0.007500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_15_Specular.tga
+  artifactKey: Guid(ac2f27c4fb9eb8640bf13f478c6b89ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_15_Specular.tga using Guid(ac2f27c4fb9eb8640bf13f478c6b89ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc060609ffbf3cd115372239fdc3bf6') in 0.008812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceRed/leftImage.png
+  artifactKey: Guid(f4ff7b3598c10f443b97a6624d7226e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceRed/leftImage.png using Guid(f4ff7b3598c10f443b97a6624d7226e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce9443a85361c343975d633739383be') in 0.008529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_49_Normal.tga
+  artifactKey: Guid(886470e3c92595d489978d2be0311d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_49_Normal.tga using Guid(886470e3c92595d489978d2be0311d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801413534432e9a80f6a4289101b883b') in 0.008642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_48_Diffuse.tga
+  artifactKey: Guid(485b71d54b858e246a86b7c8713d8476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_48_Diffuse.tga using Guid(485b71d54b858e246a86b7c8713d8476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d52b5787e6cfe2260542aa272a912b9') in 0.007924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_03_Specular.tga
+  artifactKey: Guid(d12195ae4fdaf7a4bbf1c1cc203a8dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_03_Specular.tga using Guid(d12195ae4fdaf7a4bbf1c1cc203a8dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449b5fd0263c0c6e7f811bf9d602b9b6') in 0.007468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/05.Moels/Barrel/Barrel_D1.tga
+  artifactKey: Guid(0aa4112bfd022aa47919f151ba79ddc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Moels/Barrel/Barrel_D1.tga using Guid(0aa4112bfd022aa47919f151ba79ddc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f69f17aaf9b9426a7896ae1cccb23d') in 0.007421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceGreen/frontImage.png
+  artifactKey: Guid(05a43da33c7eccf46bfece6a05db470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceGreen/frontImage.png using Guid(05a43da33c7eccf46bfece6a05db470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263848ee55113b6b560428b8c794501d') in 0.008508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_31_Diffuse.tga
+  artifactKey: Guid(45327f0d326c97f4f884bf345d710f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_31_Diffuse.tga using Guid(45327f0d326c97f4f884bf345d710f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ada16f5261e92f35fe3637c651cafa') in 0.007496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/Stars01/downImage.png
+  artifactKey: Guid(2386597d5e868c9458b8bf627b1bbb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/Stars01/downImage.png using Guid(2386597d5e868c9458b8bf627b1bbb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272749de89ea10e622a5c1d6279cddb0') in 0.007446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_33_Diffuse.tga
+  artifactKey: Guid(3616af53dd0659648b71cb468bf03d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_33_Diffuse.tga using Guid(3616af53dd0659648b71cb468bf03d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe212883bb6501e672f9d93ce621dee') in 0.008591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_36_Diffuse.tga
+  artifactKey: Guid(048117a1d65d06446b690db21b8598e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_36_Diffuse.tga using Guid(048117a1d65d06446b690db21b8598e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442721f43eb748935ae333daabadee64') in 0.007735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_17_Diffuse.tga
+  artifactKey: Guid(f6061b0c042df0b40978226fa22c5697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_17_Diffuse.tga using Guid(f6061b0c042df0b40978226fa22c5697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01541cb4958c2313d7b7593fca69f6ed') in 0.007337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_43_Specular.tga
+  artifactKey: Guid(15f2fefe38afc5348b47b4a2e6988bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_43_Specular.tga using Guid(15f2fefe38afc5348b47b4a2e6988bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f957e83db300cec7d35c032652641137') in 0.007546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_49_Diffuse.tga
+  artifactKey: Guid(6809d5b885a2c084c8f85c4afbf126c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_49_Diffuse.tga using Guid(6809d5b885a2c084c8f85c4afbf126c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e736cf40b1a99e72283773ba4de0eaa3') in 0.007182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceRed/rightImage.png
+  artifactKey: Guid(6ea2e7ab328ea214a97f55c279f4a884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceRed/rightImage.png using Guid(6ea2e7ab328ea214a97f55c279f4a884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3a0eaf799432d554332d038672ec2a') in 0.007651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_07_Diffuse.tga
+  artifactKey: Guid(d0e1b4cdfbad6b348a3f788a993a77d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_07_Diffuse.tga using Guid(d0e1b4cdfbad6b348a3f788a993a77d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e503da050cea46f982c72c8d70af57') in 0.007120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_22_Normal.tga
+  artifactKey: Guid(7bf14af4662458044a096632566cf50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_22_Normal.tga using Guid(7bf14af4662458044a096632566cf50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b0f1dece68612c66d7f1d39b6e76b7') in 0.007723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_21_Normal.tga
+  artifactKey: Guid(e467b527fd3204a4292b9afadb018f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_21_Normal.tga using Guid(e467b527fd3204a4292b9afadb018f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca02fed03f6452d86339fecc598f99ba') in 0.007399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_31_Specular.tga
+  artifactKey: Guid(384e3a81535804f4b8ba6a0c1a288812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_31_Specular.tga using Guid(384e3a81535804f4b8ba6a0c1a288812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf10a7fc9e7c2280b12d72e3029a849') in 0.007331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_22_Specular.tga
+  artifactKey: Guid(15e885e03e6987540a13c5f25e1e7f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_22_Specular.tga using Guid(15e885e03e6987540a13c5f25e1e7f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0759e9a3b4e6a47730072c280a194eae') in 0.007729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_02_Specular.tga
+  artifactKey: Guid(d8b7271fec101a84abbc668382536813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_02_Specular.tga using Guid(d8b7271fec101a84abbc668382536813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f564866ccac35cdeb4b26d7157ced485') in 0.007917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepsSpaceRedWithPlanet/leftImage.png
+  artifactKey: Guid(547e367b5b43c494e90431a6e38e87ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepsSpaceRedWithPlanet/leftImage.png using Guid(547e367b5b43c494e90431a6e38e87ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15faaa968c5f942f3dce0a3408cce811') in 0.009264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_41_Diffuse.tga
+  artifactKey: Guid(a0b96b9edbb3a904a8d6b544881f4b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_41_Diffuse.tga using Guid(a0b96b9edbb3a904a8d6b544881f4b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e454e42de458995cd45dd99a84b8f5d9') in 0.007817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_28_Specular.tga
+  artifactKey: Guid(d86c80ae03435124fbf96fd0e9882016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_28_Specular.tga using Guid(d86c80ae03435124fbf96fd0e9882016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91e7fc88d53041c5e005a1aa271f032') in 0.007514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_42_Diffuse.tga
+  artifactKey: Guid(0649bd1fe217dd24cb6ebbb0b5cb2d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_42_Diffuse.tga using Guid(0649bd1fe217dd24cb6ebbb0b5cb2d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf5d4637901119a973d56eb65fe9785') in 0.007769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_19_Normal.tga
+  artifactKey: Guid(22687ef8e4927174589eb342f9d40cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_19_Normal.tga using Guid(22687ef8e4927174589eb342f9d40cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21dce722218118fd7af4e9f1c214616f') in 0.007960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_39_Normal.tga
+  artifactKey: Guid(5a896725211d8bb4396e6539cb2ab3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_39_Normal.tga using Guid(5a896725211d8bb4396e6539cb2ab3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba04a0d501e9cb87ffab6c62185e316f') in 0.008759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_42_Normal.tga
+  artifactKey: Guid(493af587c9e82b147946bdb27bfaaafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_42_Normal.tga using Guid(493af587c9e82b147946bdb27bfaaafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e737f7f1870a01b11b0dc59def8ca0') in 0.007654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceBlue/upImage.png
+  artifactKey: Guid(bd01d8f5deedc054ea3c866c4df95a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceBlue/upImage.png using Guid(bd01d8f5deedc054ea3c866c4df95a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1c42b1df15100ba5c9ab0d42de58ef') in 0.007688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_28_Normal.tga
+  artifactKey: Guid(295f3d524574d1c46b83457cc0c64f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_28_Normal.tga using Guid(295f3d524574d1c46b83457cc0c64f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4392cee89ab11d4a1d17a404de240769') in 0.007241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_29_Diffuse.tga
+  artifactKey: Guid(e8642de7dca4ee042b91319e75d59ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_29_Diffuse.tga using Guid(e8642de7dca4ee042b91319e75d59ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07077199d59c0eb21446bd31cdaae810') in 0.006860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_18_Normal.tga
+  artifactKey: Guid(c902dc60be5856949909aacd8d22ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_18_Normal.tga using Guid(c902dc60be5856949909aacd8d22ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2595d0fc9576762de1f8f492534ba202') in 0.008031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_50_Specular.tga
+  artifactKey: Guid(d702ca62fd313ed4da224fbda008871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_50_Specular.tga using Guid(d702ca62fd313ed4da224fbda008871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46581036efbbd2df374bd2792a81f314') in 0.007656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceGreen/upImage.png
+  artifactKey: Guid(376b86c8806901b4990daf9dc1615895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceGreen/upImage.png using Guid(376b86c8806901b4990daf9dc1615895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b409397fc5d4ebfe0ed78477c5104bd3') in 0.008254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceRed/frontImage.png
+  artifactKey: Guid(8ded2db630cde5548a1cb01fe3ffea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceRed/frontImage.png using Guid(8ded2db630cde5548a1cb01fe3ffea49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e44aac7fa5ee1e282b37c7d98d2b292') in 0.007870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_08_Specular.tga
+  artifactKey: Guid(9e54b7e0308fe894fac37951533a179e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_08_Specular.tga using Guid(9e54b7e0308fe894fac37951533a179e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1787ae4443ec6e89a5186469b98d56be') in 0.007314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_16_Emissive.tga
+  artifactKey: Guid(8f9391bcf3b56b4429b45da4c326e808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_16_Emissive.tga using Guid(8f9391bcf3b56b4429b45da4c326e808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd7e50ba25b7f719bed617d5edd5682') in 0.006836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceBlue/frontImage.png
+  artifactKey: Guid(3c74d9b24e6f1a24c8a23d012f45f750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceBlue/frontImage.png using Guid(3c74d9b24e6f1a24c8a23d012f45f750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a50452f0ee437eebb27ead3a6d1c58a') in 0.007937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_42_Specular.tga
+  artifactKey: Guid(b75eeacb25d0bf147b73f6f7d50387a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_42_Specular.tga using Guid(b75eeacb25d0bf147b73f6f7d50387a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417c7d2a01e3add12979efeb48df5a37') in 0.008164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_24_Normal.tga
+  artifactKey: Guid(33416e1c35bc9b148a8bf942e484c86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_24_Normal.tga using Guid(33416e1c35bc9b148a8bf942e484c86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b124281f782550488d0aaee0be76ab5') in 0.007612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepsSpaceRedWithPlanet/backImage.png
+  artifactKey: Guid(6601b262566e8ed48bcd94e544e0fd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepsSpaceRedWithPlanet/backImage.png using Guid(6601b262566e8ed48bcd94e544e0fd2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddf6a148df5606f71a608ca85f6e54b') in 0.007945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_24_Specular.tga
+  artifactKey: Guid(48be6ed832adba94999829854028da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_24_Specular.tga using Guid(48be6ed832adba94999829854028da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93698dd91c475066322e9eb4ee6e6883') in 0.008268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_49_Specular.tga
+  artifactKey: Guid(a7d7b7d31df755f4c866a76fa5d1e33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_49_Specular.tga using Guid(a7d7b7d31df755f4c866a76fa5d1e33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa0defb9e80603e0197b865188970dd') in 0.007415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_06_Normal.tga
+  artifactKey: Guid(b7767f0d201ba334dacf548f5238daeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_06_Normal.tga using Guid(b7767f0d201ba334dacf548f5238daeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654572fc577dd42f104de0e6c9e73349') in 0.007221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_09_Normal.tga
+  artifactKey: Guid(c56ea16fda03e4a429ea043548e66a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_09_Normal.tga using Guid(c56ea16fda03e4a429ea043548e66a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe50fe2c4ea9b74ec7bf4d490b494d8') in 0.008164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceRed/downImage.png
+  artifactKey: Guid(bf0c0b6ba4b05d843b2035b5af2141c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceRed/downImage.png using Guid(bf0c0b6ba4b05d843b2035b5af2141c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde957c4e70facbd71aefcb5d180c68b') in 0.007444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_40_Diffuse.tga
+  artifactKey: Guid(7291e3e19509b2e46a6f452a104360f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_40_Diffuse.tga using Guid(7291e3e19509b2e46a6f452a104360f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1041116bff3cfe3405a3959c3de469') in 0.008223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_40_Normal.tga
+  artifactKey: Guid(0641f934232d8914ea2e2479cf4c0939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_40_Normal.tga using Guid(0641f934232d8914ea2e2479cf4c0939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf239c1f6f41cdd524768634bd43bcd') in 0.007961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_48_Normal.tga
+  artifactKey: Guid(965f578db66371a418b1bd28186fa392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_48_Normal.tga using Guid(965f578db66371a418b1bd28186fa392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1907e3c4a189f43731b9f5cbb9c7f8b') in 0.008593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_26_Diffuse.tga
+  artifactKey: Guid(f82867d065cf7d141b29809854fc3e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_26_Diffuse.tga using Guid(f82867d065cf7d141b29809854fc3e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350ffb738b458009ecf3a8bd25ec8125') in 0.007628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_13_Specular.tga
+  artifactKey: Guid(88ea2467daa61a54baba97ff1f4b2625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_13_Specular.tga using Guid(88ea2467daa61a54baba97ff1f4b2625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df69d61bfad5ba540227b2673684a37') in 0.008290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_04_Specular.tga
+  artifactKey: Guid(5ac21282e11c3a6439d85e1da57f5989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_04_Specular.tga using Guid(5ac21282e11c3a6439d85e1da57f5989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48c7118a08e8458deef26ced73ca2aa') in 0.007618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_37_Diffuse.tga
+  artifactKey: Guid(464a455c600e8a045bf4b7a3175e0c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_37_Diffuse.tga using Guid(464a455c600e8a045bf4b7a3175e0c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d671b6fb959f4b144d7057df615046e') in 0.007622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_28_Diffuse.tga
+  artifactKey: Guid(9b6cbf8847f1b8643a4e8b05122ce9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_28_Diffuse.tga using Guid(9b6cbf8847f1b8643a4e8b05122ce9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c6eeedf7210d1428e8fd534c485935') in 0.006317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceGreenWithPlanet/leftImage.png
+  artifactKey: Guid(25f74bd5fd43fe94a9bf7a33040c8fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceGreenWithPlanet/leftImage.png using Guid(25f74bd5fd43fe94a9bf7a33040c8fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340be5a7d07c84274fcbcc115ebecff6') in 0.008015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_15_Diffuse.tga
+  artifactKey: Guid(47f997fbf9cb3a840a27fef8a495a398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_15_Diffuse.tga using Guid(47f997fbf9cb3a840a27fef8a495a398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882759deec5fda33022a5044ab16d870') in 0.007695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_09_Specular.tga
+  artifactKey: Guid(23cbb8ee7779285419c0b154e731c40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_09_Specular.tga using Guid(23cbb8ee7779285419c0b154e731c40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3a2c0334f0c1117702e842f1b9d8ca') in 0.007198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_46_Diffuse.tga
+  artifactKey: Guid(04b2bfb7759f4854fb05998f97653d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_46_Diffuse.tga using Guid(04b2bfb7759f4854fb05998f97653d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46da1ef872f3332c64533325c4d4122') in 0.007308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_34_Specular.tga
+  artifactKey: Guid(fae9099faa12be6468a76d4bcb852bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_34_Specular.tga using Guid(fae9099faa12be6468a76d4bcb852bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ae946cfe53b5922357a9e64580e7e0') in 0.007415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_05_Normal.tga
+  artifactKey: Guid(f6e6e6daff08ce04f8e7af85582635bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_05_Normal.tga using Guid(f6e6e6daff08ce04f8e7af85582635bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34a8651d06c91bc59b72738ed5e4105') in 0.007701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_14_Specular.tga
+  artifactKey: Guid(035c1683361e0bd48b03f41544efc189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_14_Specular.tga using Guid(035c1683361e0bd48b03f41544efc189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec87be4339e12e5ce667199ba40ae9fe') in 0.007519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceBlueWithPlanet/upImage.png
+  artifactKey: Guid(5c4046e19400c9f44961b6350406ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceBlueWithPlanet/upImage.png using Guid(5c4046e19400c9f44961b6350406ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776d07ad91663ca98434a6ed134059a2') in 0.007538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceGreenWithPlanet/backImage.png
+  artifactKey: Guid(b8eac033bd49f0f4a8914a7454a2ec3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceGreenWithPlanet/backImage.png using Guid(b8eac033bd49f0f4a8914a7454a2ec3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0221e41e8e885c0aa45b227c9ffeb998') in 0.008248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_40_Specular.tga
+  artifactKey: Guid(ee3155f5d3a484044953d855fd5f0843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_40_Specular.tga using Guid(ee3155f5d3a484044953d855fd5f0843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9d034a6f4139a144c1a606a2d5e6ab') in 0.007573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_38_Specular.tga
+  artifactKey: Guid(31da0e9d4e721be4ca16edb93d39a93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_38_Specular.tga using Guid(31da0e9d4e721be4ca16edb93d39a93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62fdcfafb5878c7a4e53664c57fabf8') in 0.007212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_02_Diffuse.tga
+  artifactKey: Guid(b83cd04fd3669764388c0ad4cc89e7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_02_Diffuse.tga using Guid(b83cd04fd3669764388c0ad4cc89e7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21713179302d8d6fc3a4ab6d9daa336') in 0.007668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_27_Diffuse.tga
+  artifactKey: Guid(455a6bfeed4785648b13816f37f358e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_27_Diffuse.tga using Guid(455a6bfeed4785648b13816f37f358e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6d1a33d47c172d40cc4ab6c664e01e') in 0.006482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_46_Normal.tga
+  artifactKey: Guid(e82e324b05afa3145b3f8ea754cc9cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_46_Normal.tga using Guid(e82e324b05afa3145b3f8ea754cc9cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a612edc1a80be680f798b078d3937bae') in 0.009218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/Stars01/upImage.png
+  artifactKey: Guid(1eee1a8f13e601d4e967192b6915486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/Stars01/upImage.png using Guid(1eee1a8f13e601d4e967192b6915486c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ffadda4602e44b9859c51d293db7be') in 0.006974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepsSpaceRedWithPlanet/upImage.png
+  artifactKey: Guid(f0035d6da7d976a4f9e7d23bfa0fe7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepsSpaceRedWithPlanet/upImage.png using Guid(f0035d6da7d976a4f9e7d23bfa0fe7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4eaf04cec567c8f33cebc9b22fc651') in 0.008315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_01_Diffuse.tga
+  artifactKey: Guid(329307f94867b154e8e49be96de7caad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_01_Diffuse.tga using Guid(329307f94867b154e8e49be96de7caad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a0d811e9aa8530de810b97a82c4175') in 0.007812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceBlueWithPlanet/frontImage.png
+  artifactKey: Guid(5695b2a32243d1e40884ad984dd6423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceBlueWithPlanet/frontImage.png using Guid(5695b2a32243d1e40884ad984dd6423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13bf4dde251dee2f4294b43265057fc') in 0.008327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/05.Moels/Player/Textures/t_skin07_d.psd
+  artifactKey: Guid(7f5533374215e40c7a84f17815598732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Moels/Player/Textures/t_skin07_d.psd using Guid(7f5533374215e40c7a84f17815598732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2791c4f3d8d541384f2b5c59f0130a1') in 0.161313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_30_Diffuse.tga
+  artifactKey: Guid(6612a81492f80c143801fcb059874cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_30_Diffuse.tga using Guid(6612a81492f80c143801fcb059874cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a491c63ce9aab9921f840ef6c62aea') in 0.007342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_32_Normal.tga
+  artifactKey: Guid(2c1a4f21c19d4044eb1a16365b2ee5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_32_Normal.tga using Guid(2c1a4f21c19d4044eb1a16365b2ee5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4072443adbd2dec347697c2b3c56977') in 0.007006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceBlue/leftImage.png
+  artifactKey: Guid(a40174c675fc1264dbbe1c9b83c7f29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceBlue/leftImage.png using Guid(a40174c675fc1264dbbe1c9b83c7f29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c951eec9771e4f5ac7610fb72185756f') in 0.008497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_13_Diffuse.tga
+  artifactKey: Guid(33dc51d475a7a4146b3b5d4c45273177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_13_Diffuse.tga using Guid(33dc51d475a7a4146b3b5d4c45273177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0046e9097344ecb8daa5c7800ae67061') in 0.006794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_32_Diffuse.tga
+  artifactKey: Guid(ca4ea6523c57b804492b6ea25083411b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_32_Diffuse.tga using Guid(ca4ea6523c57b804492b6ea25083411b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de9cb3ac7673f85ee8b4bacf986bbb6') in 0.006985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_21_Diffuse.tga
+  artifactKey: Guid(65c44c9418dce2e4e966f8fb196d64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_21_Diffuse.tga using Guid(65c44c9418dce2e4e966f8fb196d64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284cd495bcacf9a1a05195e9c793de5a') in 0.007471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_27_Normal.tga
+  artifactKey: Guid(32f6012cc48ae0b4899021bb4a03a8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_27_Normal.tga using Guid(32f6012cc48ae0b4899021bb4a03a8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a897c79281d4daa18f5782fa487499') in 0.007073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_05_Diffuse.tga
+  artifactKey: Guid(51b05ea1455c0f64dbd5387d62de22e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_05_Diffuse.tga using Guid(51b05ea1455c0f64dbd5387d62de22e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9208bc0cdda66a06f647323f968652a') in 0.007395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_43_Normal.tga
+  artifactKey: Guid(4255026a0849e4148af09618fd875c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_43_Normal.tga using Guid(4255026a0849e4148af09618fd875c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60d70d7d3a715f431c416a8c68fd1aa') in 0.008013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_30_Specular.tga
+  artifactKey: Guid(a9d5254462ec08c49bfbc9da579a1f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_30_Specular.tga using Guid(a9d5254462ec08c49bfbc9da579a1f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb072bc3d1aa46632a8148f1e35b521') in 0.006982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_12_Specular.tga
+  artifactKey: Guid(d72611aa5c8088f4eb634a6f1178acd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_12_Specular.tga using Guid(d72611aa5c8088f4eb634a6f1178acd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca53bdc0a0bb3b36436a1df32311b16') in 0.007995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_37_Normal.tga
+  artifactKey: Guid(99b90d66a3c01c149a95efb7fa1070ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_37_Normal.tga using Guid(99b90d66a3c01c149a95efb7fa1070ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2a776eefc84192a4ab693cc1c52177') in 0.008789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_44_Specular.tga
+  artifactKey: Guid(54fc8c0a3aa3da9479ee01e94328e9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_44_Specular.tga using Guid(54fc8c0a3aa3da9479ee01e94328e9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17e6a2c024c0ade8d789874ae624a5a') in 0.007291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_33_Normal.tga
+  artifactKey: Guid(6efa5bd4c9b0d8a4c98eb99feafec635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_33_Normal.tga using Guid(6efa5bd4c9b0d8a4c98eb99feafec635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e6f5a7107911ae4b6537eb1a92c460') in 0.007737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/05.Moels/Barrel/Barrel_D.tga
+  artifactKey: Guid(e1f2b37b381e6d14a8a01ddd49a84a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/05.Moels/Barrel/Barrel_D.tga using Guid(e1f2b37b381e6d14a8a01ddd49a84a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f2ed3b407ed42d047768447dbce942') in 0.007390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_23_Diffuse.tga
+  artifactKey: Guid(8413ed1331ead2d45ade40523232bc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_23_Diffuse.tga using Guid(8413ed1331ead2d45ade40523232bc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca11882b0a9d74ad4b422eb772055ad') in 0.008418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_20_Diffuse.tga
+  artifactKey: Guid(87c733e12f51e524d919526b301155bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_20_Diffuse.tga using Guid(87c733e12f51e524d919526b301155bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf42a210e6fdcc75d019570741bddf6') in 0.007072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_38_Normal.tga
+  artifactKey: Guid(ff112d4d8095778409870405738d14f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_38_Normal.tga using Guid(ff112d4d8095778409870405738d14f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b35035a124c34dd576a383bd3eaa506') in 0.007377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_44_Diffuse.tga
+  artifactKey: Guid(f2ad0c737db19b242a7ac4ec9dbc0a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_44_Diffuse.tga using Guid(f2ad0c737db19b242a7ac4ec9dbc0a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5079a5a5837bbb623ba7ef889ffaeb18') in 0.007128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_22_Diffuse.tga
+  artifactKey: Guid(445cb47871abfa0459e87e16500c10c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_22_Diffuse.tga using Guid(445cb47871abfa0459e87e16500c10c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703cface9beed38d18f1bdf1797a67ee') in 0.007415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_04_Normal.tga
+  artifactKey: Guid(c8032c4dd699e8d4d8aa56e703af1483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_04_Normal.tga using Guid(c8032c4dd699e8d4d8aa56e703af1483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3803feffde5d51f6df766f6f81da1772') in 0.007588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_03_Diffuse.tga
+  artifactKey: Guid(3f7bdb1db46318a488851d1a48046566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_03_Diffuse.tga using Guid(3f7bdb1db46318a488851d1a48046566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6e5bd9583e94421d8f69a138b9e369') in 0.007808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceGreenWithPlanet/downImage.png
+  artifactKey: Guid(06d8be9df22e9d443a0aefb29905bd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceGreenWithPlanet/downImage.png using Guid(06d8be9df22e9d443a0aefb29905bd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f7292df7f965826258e83dcca45ac5') in 0.007217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_38_Diffuse.tga
+  artifactKey: Guid(9a1b6d5ae0baac0468a752a11214c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_38_Diffuse.tga using Guid(9a1b6d5ae0baac0468a752a11214c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28376586c5d1e246e5210dcc583c862') in 0.008232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_25_Diffuse.tga
+  artifactKey: Guid(cff6b5a878a08e34f9669b5d411e994d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_25_Diffuse.tga using Guid(cff6b5a878a08e34f9669b5d411e994d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a72f7009f9a6bce74173c489825ebd') in 0.006737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_47_Normal.tga
+  artifactKey: Guid(28cd040c14026b94aba3d3d6ec7addfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_47_Normal.tga using Guid(28cd040c14026b94aba3d3d6ec7addfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fca00d91d21d6e920ff315c17fa6b4') in 0.007763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_15_Normal.tga
+  artifactKey: Guid(b22c6961048b78945bc62e97743a5f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_15_Normal.tga using Guid(b22c6961048b78945bc62e97743a5f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0bea24b2429f6ea964ec9fd33a405e') in 0.007560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_27_Specular.tga
+  artifactKey: Guid(a9003f14ef2a8bd47abbe5c8d364d562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_27_Specular.tga using Guid(a9003f14ef2a8bd47abbe5c8d364d562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4490f989b74b9724a81e570a7f3af2a7') in 0.007817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepsSpaceRedWithPlanet/frontImage.png
+  artifactKey: Guid(7e077c5370349b247929c95a8b8ce75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepsSpaceRedWithPlanet/frontImage.png using Guid(7e077c5370349b247929c95a8b8ce75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114d3a663d3a1b0b3fc42d85597699b0') in 0.008121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceGreen/leftImage.png
+  artifactKey: Guid(b3e3bb55f10dc644daa8a354dc0030ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceGreen/leftImage.png using Guid(b3e3bb55f10dc644daa8a354dc0030ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3627376a7e51e8616804e09f99859a4f') in 0.008341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/Stars01/rightImage.png
+  artifactKey: Guid(ff7a4eded7a1437488c0e6771172133e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/Stars01/rightImage.png using Guid(ff7a4eded7a1437488c0e6771172133e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936ba002e09f1a8c9ace1f60460929ae') in 0.006643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_23_Normal.tga
+  artifactKey: Guid(1fb10c5603038a24abb2ccad745574c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_23_Normal.tga using Guid(1fb10c5603038a24abb2ccad745574c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489025247a7a7fd635129a0ca2904bf5') in 0.007246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/04.Images/SkyBox Volume 2/DeepSpaceBlue/rightImage.png
+  artifactKey: Guid(9dd9f87fe1ab7744fb7fb7046e3cfbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/SkyBox Volume 2/DeepSpaceBlue/rightImage.png using Guid(9dd9f87fe1ab7744fb7fb7046e3cfbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647e2bb40abc07eab607af78dc551ef8') in 0.007496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_12_Normal.tga
+  artifactKey: Guid(12dee78e6b4fc644fb75f9d19b8b9ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04.Images/YughuesFreeMetalMaterials/Materials/Textures/T_12_Normal.tga using Guid(12dee78e6b4fc644fb75f9d19b8b9ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27d451d42152e2b4c3b31dbecb04d66') in 0.007968 seconds 
