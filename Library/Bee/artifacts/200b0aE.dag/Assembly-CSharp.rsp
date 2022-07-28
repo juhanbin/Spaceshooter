@@ -114,6 +114,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:UNITY_POST_PROCESSING_STACK_V2
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -325,6 +326,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Postprocessing.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Services.Core.Analytics.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Services.Core.Environments.ref.dll"
@@ -348,12 +351,21 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+-analyzer:"Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll"
 "Assets/02.Scripts/BulletCtrl.cs"
 "Assets/02.Scripts/FireCtrl.cs"
 "Assets/02.Scripts/FollowCam.cs"
 "Assets/02.Scripts/MyGizmos.cs"
 "Assets/02.Scripts/PlayerCtrl.cs"
 "Assets/02.Scripts/RemoveBullet.cs"
+"Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs"
+"Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs"
+"Assets/EffectExamples/Shared/Scripts/GunAim.cs"
+"Assets/EffectExamples/Shared/Scripts/GunShoot.cs"
+"Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs"
+"Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs"
+"Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs"
+"Assets/EffectExamples/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
 /deterministic
