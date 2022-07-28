@@ -351,6 +351,7 @@
 "Assets/02.Scripts/BulletCtrl.cs"
 "Assets/02.Scripts/FollowCam.cs"
 "Assets/02.Scripts/PlayerCtrl.cs"
+"Assets/02.Scripts/RemoveBullet.cs"
 -langversion:9.0
 
 /deterministic
