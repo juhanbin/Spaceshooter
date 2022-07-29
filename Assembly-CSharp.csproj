@@ -36,23 +36,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Users/mac/unity study/SpaceShooter/Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll" />
-  </ItemGroup>
-  <ItemGroup>
-     <Compile Include="Assets/02.Scripts/PlayerCtrl.cs" />
-     <Compile Include="Assets/02.Scripts/FollowCam.cs" />
-     <Compile Include="Assets/02.Scripts/BulletCtrl.cs" />
-     <Compile Include="Assets/02.Scripts/RemoveBullet.cs" />
-     <Compile Include="Assets/02.Scripts/MyGizmos.cs" />
-     <Compile Include="Assets/02.Scripts/FireCtrl.cs" />
-     <Compile Include="Assets/EffectExamples/TutorialInfo/Scripts/Readme.cs" />
-     <Compile Include="Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs" />
      <Compile Include="Assets/EffectExamples/Shared/Scripts/DecalDestroyer.cs" />
+     <Compile Include="Assets/02.Scripts/MyGizmos.cs" />
+     <Compile Include="Assets/02.Scripts/PlayerCtrl.cs" />
+     <Compile Include="Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs" />
+     <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs" />
+     <Compile Include="Assets/EffectExamples/TutorialInfo/Scripts/Readme.cs" />
+     <Compile Include="Assets/02.Scripts/BulletCtrl.cs" />
+     <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs" />
      <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleCollision.cs" />
      <Compile Include="Assets/EffectExamples/Shared/Scripts/GunShoot.cs" />
+     <Compile Include="Assets/02.Scripts/FollowCam.cs" />
+     <Compile Include="Assets/02.Scripts/FireCtrl.cs" />
+     <Compile Include="Assets/02.Scripts/RemoveBullet.cs" />
      <Compile Include="Assets/EffectExamples/Shared/Scripts/GunAim.cs" />
-     <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleExamples.cs" />
-     <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs" />
      <None Include="Assets/EffectExamples/Shared/Shaders/SurfaceShader_VC.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -708,8 +705,8 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
         <HintPath>/Users/mac/unity study/SpaceShooter/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>/Users/mac/unity study/SpaceShooter/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
+    <Reference Include="Unity.Postprocessing.Editor">
+        <HintPath>/Users/mac/unity study/SpaceShooter/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>/Users/mac/unity study/SpaceShooter/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -719,6 +716,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
         <HintPath>/Users/mac/unity study/SpaceShooter/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>/Users/mac/unity study/SpaceShooter/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>/Users/mac/unity study/SpaceShooter/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -735,6 +735,9 @@
     <Reference Include="Unity.Services.Core.Analytics">
         <HintPath>/Users/mac/unity study/SpaceShooter/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+        <HintPath>/Users/mac/unity study/SpaceShooter/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
         <HintPath>/Users/mac/unity study/SpaceShooter/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
@@ -749,12 +752,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>/Users/mac/unity study/SpaceShooter/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>/Users/mac/unity study/SpaceShooter/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>/Users/mac/unity study/SpaceShooter/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

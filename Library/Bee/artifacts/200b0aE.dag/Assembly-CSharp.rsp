@@ -351,7 +351,6 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll"
 "Assets/02.Scripts/BulletCtrl.cs"
 "Assets/02.Scripts/FireCtrl.cs"
 "Assets/02.Scripts/FollowCam.cs"

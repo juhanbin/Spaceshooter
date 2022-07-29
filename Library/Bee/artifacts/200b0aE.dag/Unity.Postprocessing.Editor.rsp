@@ -345,7 +345,6 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll"
 "Library/PackageCache/com.unity.postprocessing@3.2.2/PostProcessing/Editor/Attributes/DecoratorAttribute.cs"
 "Library/PackageCache/com.unity.postprocessing@3.2.2/PostProcessing/Editor/Attributes/PostProcessEditorAttribute.cs"
 "Library/PackageCache/com.unity.postprocessing@3.2.2/PostProcessing/Editor/BaseEditor.cs"

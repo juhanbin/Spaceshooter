@@ -14,9 +14,15 @@ public class RemoveBullet : MonoBehaviour
         //if(coll.collider.tag=="BULLET")
         if(coll.collider.CompareTag("BULLET"))
         {
-            //스파크 파티클을 동적으로 생성
-            Instantiate(sparkEffect,coll.transform.position,Quaternion.identity);
+            //첫번째 충돌 지점의 정보 추출
+            ContactPoint cp=coll.GetContact(0);
+            //충돌한 총알의 법선 벡터를 쿼터니언 타입으로 변환
+            Quaternion rot = Quaternion.LookRotation(-cp.normal);
 
+            //스파크 파티클을 동적으로 생성
+            GameObject spark=Instantiate(sparkEffect,cp.point,rot);
+            //일정 시간이 지난 후 스파크 파티클을 삭제
+            Destroy(spark, 0.5f);
             //충돌한 게임오브젝트 삭제
             Destroy(coll.gameObject);
         }
