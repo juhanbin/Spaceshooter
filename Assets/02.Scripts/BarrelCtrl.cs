@@ -22,11 +22,16 @@ public class BarrelCtrl : MonoBehaviour
     //폭발 반경
     public float radius=10.0f;
 
+    //사운드
+    public new AudioSource audio;
+    public AudioClip boomSound;
+
 
     void Start()
     {
         tr=GetComponent<Transform>();
         rb=GetComponent<Rigidbody>();
+        audio = GetComponent<AudioSource>();
 
         //하위에 있는 MeshRederer 컴포넌트를 추출
         renderer = GetComponentInChildren<MeshRenderer>();
@@ -55,6 +60,10 @@ public class BarrelCtrl : MonoBehaviour
         GameObject exp=Instantiate(expEffect, tr.position, Quaternion.identity);
         //폭발 효과 파티클 5초 후에 제거
         Destroy(exp,5.0f);
+
+        //터지는 소리 효과
+        audio.clip = boomSound;
+        audio.Play();
 
         // //Rigidbody 컴포턴트의 mass를 1.0으로 수정해 무게를 가볍게 함
         // rb.mass=1.0f;
