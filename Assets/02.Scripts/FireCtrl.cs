@@ -17,9 +17,17 @@ public class FireCtrl : MonoBehaviour
     //AudioSource 컴포넌트를 저장할 변수
     private new AudioSource audio;
 
+    //MuzzleFlash의 MeshRenderer 컴포넌트
+    private MeshRenderer muzzleFlash;
+
     void Start()
     {
         audio = GetComponent<AudioSource>();
+
+        //FirePos 하위에 있는 MuzzleFlash의  Material 컴포넌트를 추출
+        muzzleFlash=firePos.GetComponentInChildren<MeshRenderer>();
+        //처음 시작할 때 비활성화
+        muzzleFlash.enabled=false;
     }
 
     void Update()
@@ -38,5 +46,34 @@ public class FireCtrl : MonoBehaviour
 
         //총소리 발생
         audio.PlayOneShot(fireSfx,1.0f);
+
+        //총구 화염 효과 코르틴 함수 호출
+        StartCoroutine(ShowMuzzleFlash());
+    }
+
+    IEnumerator ShowMuzzleFlash()
+    {
+        //오프셋 좌푯값을 랜덤 함수로 생성
+        Vector2 offset = new Vector2(UnityEngine.Random.Range(0,2),UnityEngine.Random.Range(0,2))*0.5f;
+
+        //텍스처의 오프셋 값 설정
+        muzzleFlash.material.mainTextureOffset=offset;
+
+        //MuzzleFlash의 회전 변경
+        float angle = UnityEngine.Random.Range(0,360);
+        muzzleFlash.transform.localRotation = Quaternion.Euler(0,0,angle);
+
+        //MuzzleFlash의 크기 조절
+        float scale = UnityEngine.Random.Range(1.0f,2.0f);
+        muzzleFlash.transform.localScale = Vector3.one * scale;
+
+        //MuzzleFlash 활성화
+        muzzleFlash.enabled=true;
+
+        //0.2초 동안 대기(정지)하는 동안 메시지 루프로 제어권을 양보
+        yield return new WaitForSeconds(0.2f);
+        
+        //MuzzleFlash 비활성화
+        muzzleFlash.enabled=false;
     }
 }
