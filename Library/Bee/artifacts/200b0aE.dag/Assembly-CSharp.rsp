@@ -355,6 +355,7 @@
 "Assets/02.Scripts/BulletCtrl.cs"
 "Assets/02.Scripts/FireCtrl.cs"
 "Assets/02.Scripts/FollowCam.cs"
+"Assets/02.Scripts/MonsterCtrl.cs"
 "Assets/02.Scripts/MyGizmos.cs"
 "Assets/02.Scripts/PlayerCtrl.cs"
 "Assets/02.Scripts/RemoveBullet.cs"
