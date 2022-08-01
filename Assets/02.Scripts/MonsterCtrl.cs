@@ -31,6 +31,7 @@ public class MonsterCtrl : MonoBehaviour
     //Animator 파라미터의 해시값 추출
     private readonly int hashTrace = Animator.StringToHash("IsTrace");
     private readonly int hashAttack = Animator.StringToHash("IsAttack");
+    private readonly int hashHit = Animator.StringToHash("Hit");
 
     void Start()
     {
@@ -118,6 +119,17 @@ public class MonsterCtrl : MonoBehaviour
                     break;
             }
             yield return new WaitForSeconds(0.3f);
+        }
+    }
+
+    void OnCollisionEnter(Collision coll)
+    {
+        if(coll.collider.CompareTag("BULLET"))
+        {
+            //충돌한 총알을 삭제
+            Destroy(coll.gameObject);
+            //피격 리액션 애니메이션 실행
+            anim.SetTrigger(hashHit);
         }
     }
 
