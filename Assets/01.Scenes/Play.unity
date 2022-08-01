@@ -1875,7 +1875,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0
+  m_BaseOffset: -0.1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &1420688371
@@ -1890,6 +1890,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9218b9a5dc65a41a5b33c6d118bcb108, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  state: 0
+  traceDist: 10
+  attackDist: 2
+  isDie: 0
 --- !u!4 &1428268627 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fb8b8a16fd3ec410a89c2880b5e18f47, type: 3}
