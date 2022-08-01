@@ -2054,3 +2054,219 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2410.565798 seconds.
+  path: Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V1-Angry-Free-1.ogg
+  artifactKey: Guid(27b98a8c68f991b408c5c6afff25358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V1-Angry-Free-1.ogg using Guid(27b98a8c68f991b408c5c6afff25358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a2ca0dcf489a686c2b1eb9ffc04e65') in 0.337509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.409052 seconds.
+  path: Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V1-Attacking-Free-1.ogg
+  artifactKey: Guid(5ce6bb262e363834db2b5cdef8a21155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V1-Attacking-Free-1.ogg using Guid(5ce6bb262e363834db2b5cdef8a21155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40570b0b5d6119814b7c40cc8d97cbef') in 0.011572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.298984 seconds.
+  path: Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V1-Damaged-Free-1.ogg
+  artifactKey: Guid(bdb798b20d5ac2f438f3a562f4150019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V1-Damaged-Free-1.ogg using Guid(bdb798b20d5ac2f438f3a562f4150019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3829f75fdcb0df107ddd2c34e754e34a') in 0.008491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.470979 seconds.
+  path: Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V1-Searching-Free-1.ogg
+  artifactKey: Guid(821b6440d8e269c40b5a0eb8a44a079d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V1-Searching-Free-1.ogg using Guid(821b6440d8e269c40b5a0eb8a44a079d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee5a6d68e284c69af25ab4d1827cce5') in 0.008284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.375709 seconds.
+  path: Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V2-Angry-Free-1.ogg
+  artifactKey: Guid(d0dd5a8e1fcf88c4c990c0c54c58a2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V2-Angry-Free-1.ogg using Guid(d0dd5a8e1fcf88c4c990c0c54c58a2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f0ffca230e715800e068c12c02f40f') in 0.007607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.966151 seconds.
+  path: Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V2-Attacking-Free-1.ogg
+  artifactKey: Guid(4fb45f9472f5e554c82a5a9c7ba4c739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z1-Free/Z1-V2-Attacking-Free-1.ogg using Guid(4fb45f9472f5e554c82a5a9c7ba4c739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66137ede794c4df469950ad470a6143a') in 0.007325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2291.349723 seconds.
+  path: Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z2-Free/Z2-V1-Angry-Free-1.ogg
+  artifactKey: Guid(90054576c036ea44096d20cc89ff4da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z2-Free/Z2-V1-Angry-Free-1.ogg using Guid(90054576c036ea44096d20cc89ff4da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2329da9377d93530a95c3a63479d531d') in 0.009731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.578132 seconds.
+  path: Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z3-Free/Z3-V1-Angry-Free-1.ogg
+  artifactKey: Guid(e66b136e063cc4049b96679b13228187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IdiaSoftware/ZombieFreeCharacterSounds/Z3-Free/Z3-V1-Angry-Free-1.ogg using Guid(e66b136e063cc4049b96679b13228187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7f9b838642d25315c5030af5f4fbe7') in 0.008713 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001941 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mac/unity study/SpaceShooter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mac/unity study/SpaceShooter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.468 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2470ms)
+		BeginReloadAssembly (263ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1959ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (1249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (969ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3487 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.3 MB). Loaded Objects now: 4087.
+Memory consumption went from 281.7 MB to 280.4 MB.
+Total: 2.767000 ms (FindLiveObjects: 0.188291 ms CreateObjectMapping: 0.078875 ms MarkObjects: 2.241708 ms  DeleteObjects: 0.256416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001874 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mac/unity study/SpaceShooter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mac/unity study/SpaceShooter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.344 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2346ms)
+		BeginReloadAssembly (254ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1848ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1164ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (890ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3487 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.3 MB). Loaded Objects now: 4090.
+Memory consumption went from 281.9 MB to 280.7 MB.
+Total: 2.667125 ms (FindLiveObjects: 0.186417 ms CreateObjectMapping: 0.085750 ms MarkObjects: 2.156208 ms  DeleteObjects: 0.237625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001943 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/mac/unity study/SpaceShooter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/mac/unity study/SpaceShooter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.314 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2316ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1826ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1153ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (887ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3487 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.3 MB). Loaded Objects now: 4093.
+Memory consumption went from 282.1 MB to 280.8 MB.
+Total: 2.853000 ms (FindLiveObjects: 0.181417 ms CreateObjectMapping: 0.078750 ms MarkObjects: 2.366416 ms  DeleteObjects: 0.225166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

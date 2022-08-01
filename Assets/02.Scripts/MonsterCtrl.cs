@@ -27,6 +27,7 @@ public class MonsterCtrl : MonoBehaviour
     private Transform playerTr;
     private NavMeshAgent agent;
     private Animator anim;
+    private AudioSource audioSource;
 
     //Animator 파라미터의 해시값 추출
     private readonly int hashTrace = Animator.StringToHash("IsTrace");
@@ -45,6 +46,8 @@ public class MonsterCtrl : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         //Animator 컴포넌트 할당
         anim = GetComponent<Animator>();
+        //audioSource 컴포넌트 할당
+        audioSource = GetComponent<AudioSource>();
 
         //BloodEffect 프리팹 로드
         bloodEffect = Resources.Load<GameObject>("BloodSprayEffect");
@@ -147,6 +150,8 @@ public class MonsterCtrl : MonoBehaviour
 
     void ShowBloodEffect(Vector3 pos, Quaternion rot)
     {
+        audioSource.Play();
+
         //혈흔 효과 생성
         GameObject blood =Instantiate<GameObject>(bloodEffect,pos,rot,monsterTr);
         Destroy(blood,1.0f);
