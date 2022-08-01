@@ -14,9 +14,16 @@ public class PlayerCtrl : MonoBehaviour
     public float MoveSpeed=10.0f;
     public float turnSpeed=80.0f;
 
-    // Start is called before the first frame update
+    //초기 생명값
+    private readonly float initHp = 100.0f;
+    //현재 생명 값
+    public float currHp;
+
     IEnumerator Start()
     {
+        //Hp 초기화
+        currHp = initHp;
+
         //컴포넌트를 추출해 변수에 대입
         tr=GetComponent<Transform>();
         anim = GetComponent<Animation>();
@@ -28,7 +35,6 @@ public class PlayerCtrl : MonoBehaviour
         turnSpeed = 0.8f;
     }
 
-    // Update is called once per frame
     void Update()
     {
         float h=Input.GetAxis("Horizontal");
@@ -78,5 +84,26 @@ public class PlayerCtrl : MonoBehaviour
         {
             anim.CrossFade("Idle",0.25f);//정지 시 Idle 애니메이션 실행
         }
+    }
+
+    //충돌한 Collider의 isTrigger 옵션이 체크되었을때 발생
+    void OnTriggerEnter(Collider coll)
+    {
+        //충돌한 Collider가 몬서터의 Punch이면 player의 HP차감
+        if(currHp > 0.0f && coll.CompareTag("PUNCH"))
+        {
+            currHp-=50.0f;
+            Debug.Log($"플레이어의 HP가 ={currHp/initHp}");
+
+            //Player의 생명이 0이하이면 사망처리
+            if(currHp <=0.0f)
+            {
+                PlayerDie();
+            }
+        }
+    }
+    void PlayerDie()
+    {
+        Debug.Log("바이~");
     }
 }
