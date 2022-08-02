@@ -34,6 +34,7 @@ public class MonsterCtrl : MonoBehaviour
     private readonly int hashAttack = Animator.StringToHash("IsAttack");
     private readonly int hashHit = Animator.StringToHash("Hit");
     private readonly int hashPlayerDie = Animator.StringToHash("PlayerDie");
+    private readonly int hashSpeed = Animator.StringToHash("Speed");
 
     //혈흔 효과 프리펩
     private GameObject bloodEffect;
@@ -182,6 +183,7 @@ public class MonsterCtrl : MonoBehaviour
 
         //추적을 정지하고 애니메이션을 수행
         agent.isStopped = true;
+        anim.SetFloat(hashSpeed,UnityEngine.Random.Range(0.8f,1.2f));
         anim.SetTrigger(hashPlayerDie);
     }
 }
