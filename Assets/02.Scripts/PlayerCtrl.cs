@@ -104,7 +104,7 @@ public class PlayerCtrl : MonoBehaviour
         //충돌한 Collider가 몬서터의 Punch이면 player의 HP차감
         if(currHp > 0.0f && coll.CompareTag("PUNCH"))
         {
-            currHp-=50.0f;
+            currHp-=25.0f;
             DisplayHealth();
 
             Debug.Log($"플레이어의 HP가 ={currHp/initHp}");
@@ -134,6 +134,9 @@ public class PlayerCtrl : MonoBehaviour
 
         //주인공 사망 이벤트 호출(발생)
         OnPlayerDie();
+
+        //GameMavager 스크립트의 IsGameOver 프로퍼티 값을 변경
+        GameObject.Find("GameManager").GetComponent<GameManager>().IsGameOver = true;
     }
 
     void DisplayHealth()
