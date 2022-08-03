@@ -2136,7 +2136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1113609345}
   m_Layer: 0
-  m_Name: SpawPointGroup
+  m_Name: SpawnPointGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2671,6 +2671,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points: []
+  monsterPool: []
+  maxMonsters: 10
+  monster: {fileID: 0}
+  createTime: 3
 --- !u!4 &1329566956
 Transform:
   m_ObjectHideFlags: 0
