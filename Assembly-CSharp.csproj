@@ -42,6 +42,7 @@
      <Compile Include="Assets/02.Scripts/PlayerCtrl.cs" />
      <Compile Include="Assets/EffectExamples/Shared/Scripts/ExtinguishableFire.cs" />
      <Compile Include="Assets/EffectExamples/Shared/Scripts/ParticleMenu.cs" />
+     <Compile Include="Assets/02.Scripts/GameManager.cs" />
      <Compile Include="Assets/EffectExamples/TutorialInfo/Scripts/Readme.cs" />
      <Compile Include="Assets/02.Scripts/MonsterCtrl.cs" />
      <Compile Include="Assets/02.Scripts/BulletCtrl.cs" />
@@ -52,7 +53,6 @@
      <Compile Include="Assets/02.Scripts/FireCtrl.cs" />
      <Compile Include="Assets/02.Scripts/RemoveBullet.cs" />
      <Compile Include="Assets/EffectExamples/Shared/Scripts/GunAim.cs" />
-     <Compile Include="Assets/02.Scripts/GameManager.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />

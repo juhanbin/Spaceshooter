@@ -199,6 +199,8 @@ public class MonsterCtrl : MonoBehaviour
             hp =-100;
             if(hp<=0)
                 state=State.DIE;
+                //몬스터가 사망 했을때 50점을 추가
+                GameManager.instance.DisplayScore(50);
         }
     }
 
