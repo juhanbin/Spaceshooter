@@ -20,6 +20,9 @@ public class FireCtrl : MonoBehaviour
     //MuzzleFlash의 MeshRenderer 컴포넌트
     private MeshRenderer muzzleFlash;
 
+    //Raycast 결과 값을 저장하기 위한 구조체선언
+    private RaycastHit hit;
+
     void Start()
     {
         audio = GetComponent<AudioSource>();
@@ -32,10 +35,20 @@ public class FireCtrl : MonoBehaviour
 
     void Update()
     {
+        //Ray를 시각적으로 표시하기위해 사용
+        Debug.DrawRay(firePos.position,firePos.forward * 10.0f,Color.green);
         //마우스 왼쪽 버튼을 클릭했을 때 Fire 함수 호출
         if(Input.GetMouseButtonDown(0))
         {
             Fire();
+
+            //Ray를 발사
+            if(Physics.Raycast(firePos.position,firePos.forward,out hit,1<<7))
+            {
+                Debug.Log($"맞은 오브젝트는  = {hit.transform.name}");
+
+                hit.transform.GetComponent<MonsterCtrl>()?.OnDamage(hit.point, hit.normal);
+            }
         }
     }
 
