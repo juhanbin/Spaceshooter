@@ -26,6 +26,9 @@ public class BarrelCtrl : MonoBehaviour
     public new AudioSource audio;
     public AudioClip boomSound;
 
+    //hp형식으로 폭발 트리거
+    private int hp_Barrel =300;
+
 
     void Start()
     {
@@ -46,7 +49,8 @@ public class BarrelCtrl : MonoBehaviour
     {
         if(coll.collider.CompareTag("BULLET"))
         {
-            if(++hitCount==3)
+            hp_Barrel -= 100;
+            if(hp_Barrel <= 0)
             {
                 ExpBarrel();
             }
@@ -88,7 +92,7 @@ public class BarrelCtrl : MonoBehaviour
 
         //가비지컬렉션이 발생하지 않음
         //Physics.OverlapSphereNonAlloc(pos,radius,colls,1<<3);
-
+        
         foreach(var coll in colls)
         {
             //폭발 범위에 포함된 드럼통의 Rigidbody 컴포넌트 추출

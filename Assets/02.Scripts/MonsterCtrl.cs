@@ -206,7 +206,7 @@ public class MonsterCtrl : MonoBehaviour
         ShowBloodEffect(pos, rot);
         
         //몬스터 hp차감
-        hp =-100;
+        hp -=100;
         if(hp<=0)
         {
             state=State.DIE;
