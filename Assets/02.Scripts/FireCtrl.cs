@@ -31,6 +31,7 @@ public class FireCtrl : MonoBehaviour
         muzzleFlash=firePos.GetComponentInChildren<MeshRenderer>();
         //처음 시작할 때 비활성화
         muzzleFlash.enabled=false;
+
     }
 
     void Update()

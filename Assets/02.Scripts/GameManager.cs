@@ -68,7 +68,6 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-
         monster = Resources.Load<GameObject>("Monster");
 
         //몬스터 오브젝트 풀 생성

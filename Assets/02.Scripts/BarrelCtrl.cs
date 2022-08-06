@@ -27,8 +27,9 @@ public class BarrelCtrl : MonoBehaviour
     public AudioClip boomSound;
 
     //hp형식으로 폭발 트리거
-    private int hp_Barrel =300;
-
+    private int hp_Barrel = 300;
+    private bool dead = false;
+    
 
     void Start()
     {
@@ -49,12 +50,18 @@ public class BarrelCtrl : MonoBehaviour
     {
         if(coll.collider.CompareTag("BULLET"))
         {
-            hp_Barrel -= 100;
-            if(hp_Barrel <= 0)
-            {
-                ExpBarrel();
+            if(hp_Barrel > 0){
+                hp_Barrel -= 100;
+                if(hp_Barrel <= 0)
+                {
+                    exp();
+                }
             }
         }
+    }
+
+    void exp(){
+        Invoke("ExpBarrel", 0.5f);
     }
 
     //드럼통을 폭발 시킬 함수
@@ -89,6 +96,8 @@ public class BarrelCtrl : MonoBehaviour
         //주변에 있는 드럼통을 모두 추출
         //가비지 컬렉션이 발생
         Collider[] colls=Physics.OverlapSphere(pos,radius,1<<3);
+        Collider[] monsters=Physics.OverlapSphere(pos,radius,1<<7);
+        Collider[] players=Physics.OverlapSphere(pos,radius,1<<9);
 
         //가비지컬렉션이 발생하지 않음
         //Physics.OverlapSphereNonAlloc(pos,radius,colls,1<<3);
@@ -103,6 +112,66 @@ public class BarrelCtrl : MonoBehaviour
             rb.constraints=RigidbodyConstraints.None;
             //폭발력을 전달
             rb.AddExplosionForce(1500.0f,pos,radius, 1200.0f);
+
+            int damage = 300;
+            Transform transform = coll.GetComponent<Transform>();
+            if(GetDistance(pos, transform.position) > 5){
+                int distance = (int) GetDistance(pos, transform.position);
+                damage -= distance * 10;
+            }
+            
+            BarrelCtrl br = coll.GetComponent<BarrelCtrl>();
+            if(br.hp_Barrel > 0){
+                br.hp_Barrel -= damage;
+                if(br.hp_Barrel <= 0)
+                {
+                    br.exp();
+                }
+            }
         }
+
+        foreach(var monster in monsters){
+            int damage = 300;
+            Transform transform = monster.GetComponent<Transform>();
+            if(GetDistance(pos, transform.position) > 5){
+                int distance = (int) GetDistance(pos, transform.position);
+                damage -= distance * 10;
+            }
+            
+            MonsterCtrl br = monster.GetComponent<MonsterCtrl>();
+            if(br.hp > 0){
+                br.hp -= damage;
+                if(br.hp<=0)
+                {
+                    br.state=MonsterCtrl.State.DIE;
+                    //몬스터가 사망 했을때 50점을 추가
+                    GameManager.instance.DisplayScore(50);
+                }
+            }
+        }
+        foreach(var player in players){
+            int damage = 300;
+            Transform transform = player.GetComponent<Transform>();
+            if(GetDistance(pos, transform.position) > 5){
+                int distance = (int) GetDistance(pos, transform.position);
+                damage -= distance * 10;
+            }
+            
+            PlayerCtrl br = player.GetComponent<PlayerCtrl>();
+            if(br.currHp > 0){
+                br.currHp -= damage;
+                br.DisplayHealth();
+
+                if(br.currHp<=0)
+                {
+                    br.PlayerDie();
+                }
+            }
+        }
+    }
+
+    double GetDistance(Vector3 pos1, Vector3 pos2)
+    {
+        return Mathf.Sqrt(Mathf.Pow(pos1.x - pos2.x, 2) + Mathf.Pow(pos1.y - pos2.y, 2) + Mathf.Pow(pos1.z - pos2.z, 2));
     }
 }

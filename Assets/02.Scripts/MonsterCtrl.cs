@@ -41,7 +41,7 @@ public class MonsterCtrl : MonoBehaviour
     private GameObject bloodEffect;
 
     //몬스터의 생명 변수
-    private int hp =100;
+    public int hp =100;
 
     //스크립트가 활성화될 때마다 호출되는 함수
     void OnEnable()

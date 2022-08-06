@@ -44,7 +44,7 @@ public class PlayerCtrl : MonoBehaviour
 
         turnSpeed = 0.0f;
         yield return new WaitForSeconds(0.3f);
-        turnSpeed = 80.0f;
+        turnSpeed = 320.0f;
     }
 
     void Update()
@@ -71,6 +71,8 @@ public class PlayerCtrl : MonoBehaviour
         tr.Rotate(Vector3.up * turnSpeed * Time.deltaTime *r);
 
         PlayerAnim(h,v);
+
+
     }
 
     void PlayerAnim(float h, float v)
@@ -116,7 +118,7 @@ public class PlayerCtrl : MonoBehaviour
             }
         }
     }
-    void PlayerDie()
+    public void PlayerDie()
     {
         Debug.Log("바이~");
         
@@ -140,7 +142,7 @@ public class PlayerCtrl : MonoBehaviour
         GameManager.instance.IsGameOver = true;
     }
 
-    void DisplayHealth()
+    public void DisplayHealth()
     {
         hpbar.fillAmount = currHp/initHp;
     }
