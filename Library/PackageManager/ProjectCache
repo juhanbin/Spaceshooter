@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637945870070000000
+      ticks: 637953923310000000
     m_Hash: 2875027219
   m_LockFileStatus:
     m_FilePath: /Users/mac/unity study/SpaceShooter/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637945870070000000
+      ticks: 637953923310000000
     m_Hash: 1299465764
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
